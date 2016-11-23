@@ -1,0 +1,50 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title test
+        script(src='../bower_components/jquery/dist/jquery.min.js')
+        script(src='../bower_components/bootstrap/dist/js/bootstrap.min.js')
+        script(src='js/main.min.js')
+        link(href='../bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+        link(href='../bower_components/components-font-awesome/css/font-awesome.min.css', rel='stylesheet')
+        link(href='css/main.min.css', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=PT+Sans|Raleway', rel='stylesheet')
+    body
+        canvas
+        section.main
+            .container
+                .mainlogo.col-md-12.hidden-xs.hidden-sm
+                .clearfix
+                .col-md-6
+                    a(href='https://polonex.in.ua/proauctions/public')
+                        .nicebtn
+                            .prozorro-btn
+                .col-md-6
+                    a(href='https://etp.polonex.com.ua/')
+                        .nicebtn
+                            .polonex-btn
+                .clearfix
+                br
+                br
+                br
+                .maincounterup.text-center
+                    .col-md-4
+                        .countuper(data-target='12') 0
+                        .countupertitle
+                            span.ctline Тогрів проведено
+                    .col-md-4
+                        .countuper(data-target='205') 0
+                        .countupertitle
+                            span.ctline Лотів продано
+                    .col-md-4
+                        .countuper(data-target='800') 0
+                        .countupertitle
+                            span.ctline Зареєстровано учасників
+        footer
+            .info-wrap.text-center
+                .firm-address 01054, м.Київ, вулиця Бульварно-Кудрявська, 33-Б
+                .firm-phone (044)223-40-27
+        script(src='http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js')
+        script(src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js')
+        script(src='js/animbg.min.js')

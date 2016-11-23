@@ -1,0 +1,26 @@
+{
+  "name": "polonex-start-page",
+  "description": "start page",
+  "main": "dist/index.html",
+  "authors": [
+    "Oleksiy Hryshchenko"
+  ],
+  "license": "MIT",
+  "keywords": [
+      "web page"
+  ],
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0"
+  }
+}
